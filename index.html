@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a233de041c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="fixed-top" id="header">
+      <span class="navbar-text">
+        <strong>Calculator App</strong>
+      </span>
+    </div>
+    <div class="container">
+      <div class="box">
+        <input type="text" class="displaydesign" id="final_output" /><br />
+        <button type="button" class="buttondesign" id="delete">C</button>
+        <button type="button" class="buttondesign" id="clearAll">CE</button>
+        <button type="button" class="buttondesign operator" id="percent">
+          %
+        </button>
+        <button type="button" class="buttondesign operator" id="divide">
+          /
+        </button>
+        <button type="button" class="buttondesign operand">7</button>
+        <button type="button" class="buttondesign operand">8</button>
+        <button type="button" class="buttondesign operand">9</button>
+        <button type="button" class="buttondesign operator" id="multiply">
+          *
+        </button>
+        <button type="button" class="buttondesign operand">4</button>
+        <button type="button" class="buttondesign operand">5</button>
+        <button type="button" class="buttondesign operand">6</button>
+        <button type="button" class="buttondesign operator" id="minus">
+          -
+        </button>
+        <button type="button" class="buttondesign operand">1</button>
+        <button type="button" class="buttondesign operand">2</button>
+        <button type="button" class="buttondesign operand">3</button>
+        <button type="button" class="buttondesign operator" id="plus">+</button>
+        <button type="button" class="buttondesign operand">.</button>
+        <button type="button" class="buttondesign operand">0</button>
+        <button type="button" class="buttondesign operand">00</button>
+        <button type="button" class="buttondesign" id="equals">=</button>
+      </div>
+    </div>
+
+    <div id="footer" class="fixed-bottom">
+      <span class="navbar-text" id="footer">
+        <i class="fas fa-heart"></i> <strong>Made By Sahil Jamwal</strong>
+      </span>
+    </div>
+  </body>
+</html>
